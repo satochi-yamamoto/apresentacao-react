@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { FaGithub, FaLinkedin, FaDiscord, FaBars } from 'react-icons/fa';
 
 const Header = () => {
