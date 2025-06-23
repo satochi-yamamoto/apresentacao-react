@@ -14,7 +14,11 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-image">
-          <img src="/images/avatar.jpg" alt="Alexandre Satochi Yamamoto" />
+          <img 
+            src="/images/avatar.jpg" 
+            alt="Alexandre Satochi Yamamoto" 
+            className="avatar-rounded"
+          />
         </div>
       </div>
     </section>
