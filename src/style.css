@@ -16,6 +16,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+.avatar-rounded {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border: 5px solid white;
+}
 
 body {
     font-family: var(--font-main);
