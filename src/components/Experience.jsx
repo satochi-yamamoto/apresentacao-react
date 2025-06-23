@@ -14,6 +14,13 @@ const Experience = () => {
       position: "Coordenador de TI",
       description: "Gestão da área de TI, responsavel pela equipe de Infraestrutura, Desenvolvimento e BI"
     },
+    {
+      date: "2023 - 2024",
+      company: "Primi Tecnologia",
+      position: "Coodenador de Desenvolvimento",
+      description: "Responsagel pela gestão da equipe de desenvolvimento, liderando no desenvolvimento de aplicações internas e Mobiles, Gestão de equipe, onde implementei o DEVOps e a metodologia Agile"
+    },    
+        
     // Adicione outras experiências conforme necessário
   ];
 
