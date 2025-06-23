@@ -22,6 +22,7 @@ const Skills = () => {
     // Adicione outras habilidades conforme necessário
   ];
 
+  
   return (
     <section id="skills" className="section skills">
       <div className="container">
