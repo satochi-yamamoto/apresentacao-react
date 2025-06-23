@@ -5,8 +5,8 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Experience from './components/Experience';
 import Education from './components/Education'; // Esta linha deve aparecer APENAS UMA VEZ
-import Projects from './components/Projects';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 // REMOVA esta segunda importação duplicada: import Education from './components/Education';
