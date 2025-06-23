@@ -6,6 +6,19 @@ const Skills = () => {
     { name: 'Gestão de Projetos', level: 90 },
     { name: 'AWS', level: 90 },
     { name: 'Microsoft Azure', level: 100 },
+    { name: 'Oracle Cloud', level: 100 },
+    { name: 'ISO 9001 / ISO 27001', level: 100 },
+    { name: 'Docker', level: 100 },
+    { name: 'Metodologia Agile', level: 100 },
+    { name: 'CI / CD', level:100 },
+    { name: 'SQL-Server', level: 100 },
+    { name: 'MySQL', level: 100 },
+    { name: 'PostgreSQL', level: 100 },
+    { name: 'Python / Django', level: 100 },
+    { name: 'PHP / Laravel', level: 100 },
+    { name: 'Node-js', level: 100 },
+    { name: 'Java Script', level: 100 },
+    { name: 'Power BI', level: 100 },
     // Adicione outras habilidades conforme necessário
   ];
 
