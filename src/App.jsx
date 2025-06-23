@@ -3,11 +3,11 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Experience from './components/Experience';
-import Education from './components/Education';
+import Education from './components/Education'; // Esta linha deve aparecer APENAS UMA VEZ
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Education from './components/Education';
+// REMOVA esta segunda importação duplicada: import Education from './components/Education';
 
 function App() {
   return (
