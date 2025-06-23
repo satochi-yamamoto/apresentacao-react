@@ -7,6 +7,7 @@ import Experience from './components/Experience';
 import Education from './components/Education'; // Esta linha deve aparecer APENAS UMA VEZ
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import VolunteerSection from './components/VolunteerSection';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 // REMOVA esta segunda importação duplicada: import Education from './components/Education';
@@ -22,6 +23,7 @@ function App() {
         <Education />
         <Projects />
         <Skills />
+        <VolunteerSection />
         <Contact />
       </main>
       <Footer />
