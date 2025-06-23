@@ -7,6 +7,7 @@ import Education from './components/Education';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Education from './components/Education';
 
 function App() {
   return (
