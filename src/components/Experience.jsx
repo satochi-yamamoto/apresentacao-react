@@ -48,17 +48,20 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="section experience">
-      <div className="container">
-        <h2 className="section-title">Experiência Profissional</h2>
-        
-        <div className="timeline">
+    <section id="experience" className="py-20 bg-white">
+      <div className="max-w-6xl mx-auto px-6">
+        <h2 className="text-3xl font-bold mb-12 text-center">Experiência Profissional</h2>
+
+        <div className="relative border-l-2 border-blue-500">
           {experiences.map((exp, index) => (
-            <div className="timeline-item" key={index}>
-              <div className="timeline-date">{exp.date}</div>
-              <div className="timeline-content">
-                <h3>{exp.company}</h3>
-                <h4>{exp.position}</h4>
+            <div className="mb-10 ml-6" key={index}>
+              <div className="absolute -left-3 w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center text-white">
+                {index + 1}
+              </div>
+              <span className="text-blue-500 font-semibold">{exp.date}</span>
+              <div className="bg-white shadow rounded p-4 mt-2">
+                <h3 className="font-bold">{exp.company}</h3>
+                <h4 className="text-blue-600">{exp.position}</h4>
                 <p>{exp.description}</p>
               </div>
             </div>

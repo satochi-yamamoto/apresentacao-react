@@ -24,16 +24,16 @@ const Skills = () => {
 
   
   return (
-    <section id="skills" className="section skills">
-      <div className="container">
-        <h2 className="section-title">Habilidades</h2>
-        <div className="skills-grid">
+    <section id="skills" className="py-20 bg-gray-50">
+      <div className="max-w-6xl mx-auto px-6">
+        <h2 className="text-3xl font-bold mb-12 text-center">Habilidades</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {skills.map((skill, index) => (
-            <div className="skill-item" key={index}>
-              <h3>{skill.name}</h3>
-              <div className="skill-bar">
-                <div 
-                  className="skill-level" 
+            <div className="space-y-2" key={index}>
+              <h3 className="font-semibold">{skill.name}</h3>
+              <div className="w-full h-2 bg-gray-200 rounded">
+                <div
+                  className="h-full bg-blue-500 rounded"
                   style={{ width: `${skill.level}%` }}
                 ></div>
               </div>

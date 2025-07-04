@@ -21,29 +21,22 @@ const Education = () => {
   ];
 
   return (
-    <section id="education" className="section education" style={{ marginTop: '60px', marginBottom: '60px' }}>
-      <div className="container">
-        <h2 className="section-title">Formação Acadêmica</h2>
-        <div className="education-grid" style={{ display: 'flex', flexDirection: 'column', gap: '40px' }}>
+    <section id="education" className="py-20">
+      <div className="max-w-6xl mx-auto px-6">
+        <h2 className="text-3xl font-bold mb-12 text-center">Formação Acadêmica</h2>
+        <div className="flex flex-col gap-8">
           {educationItems.map((item, index) => (
-            <div 
-              key={index} 
-              className="education-item" 
-              style={{ 
-                display: 'flex', 
-                alignItems: 'flex-start', 
-                gap: '20px', 
-                paddingBottom: '24px', 
-                borderBottom: index < educationItems.length - 1 ? '1px solid #eee' : 'none' 
-              }}
+            <div
+              key={index}
+              className="flex items-start gap-4 pb-6 border-b last:border-b-0"
             >
-              <div className="education-icon">
+              <div className="text-2xl text-blue-500">
                 <FaGraduationCap />
               </div>
               <div>
-                <h3>{item.institution}</h3>
-                <h4>{item.degree}</h4>
-                <p>{item.status}</p>
+                <h3 className="font-bold">{item.institution}</h3>
+                <h4 className="text-blue-600">{item.degree}</h4>
+                <p className="text-gray-600">{item.status}</p>
               </div>
             </div>
           ))}
