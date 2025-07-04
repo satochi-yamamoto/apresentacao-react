@@ -1,5 +1,5 @@
 import React from 'react';
-import './VolunteerSection.css'; // Arquivo de estilos
+
 
 const VolunteerSection = () => {
   const volunteerExperiences = [
@@ -16,14 +16,14 @@ const VolunteerSection = () => {
   ];
 
   return (
-    <section id="volunteer" className="section volunteer">
-      <div className="container">
-        <h2 className="section-title">Trabalho Voluntário</h2>
-        
+    <section id="volunteer" className="py-20 bg-gray-50">
+      <div className="max-w-6xl mx-auto px-6">
+        <h2 className="text-3xl font-bold mb-12 text-center">Trabalho Voluntário</h2>
+
         {volunteerExperiences.map((experience) => (
-          <div key={experience.id} className="volunteer-content">
-            <h3>{experience.title}</h3>
-            <p>{experience.description}</p>
+          <div key={experience.id} className="mb-8">
+            <h3 className="font-bold text-xl">{experience.title}</h3>
+            <p className="text-gray-700">{experience.description}</p>
           </div>
         ))}
       </div>
