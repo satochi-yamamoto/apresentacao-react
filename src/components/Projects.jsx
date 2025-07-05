@@ -32,7 +32,7 @@ const ProjectsSection = () => {
       alt: "Projeto 4",
       title: "Micro serviço Gerador de CV com IA",
       description: "Projeto de site para criação de CVs por IA",
-      link: "https://cv.satochi.com.br/"
+      link: "https://curriculoia.app.br/"
     },
     {
       id: 5,
